@@ -6,3 +6,16 @@
   flex-direction: column;
   border: 1px solid grey;
 }
+.card-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produce{
+  padding: 10px;
+}
+
+.column{
+  text-align: center;
+}

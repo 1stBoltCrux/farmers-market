@@ -1,6 +1,7 @@
 import React from 'react';
 import './schedule.css';
 import ScheduleCard from './ScheduleCard.jsx';
+import Nav from './Nav.jsx';
 
 const marketSchedule = [
   {
@@ -44,6 +45,8 @@ const marketSchedule = [
 function Schedule(){
   return(
     <div className='scheduleWrapper'>
+      <Nav/>
+      <h2>Schedule</h2>
       {marketSchedule.map((schedule, index) =>
         <ScheduleCard day={schedule.day}
           location={schedule.location}
