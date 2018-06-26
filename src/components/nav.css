@@ -1,0 +1,13 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.navButtons {
+  display: flex;
+}
+
+.navButtons p {
+  border: 1px solid gray;
+  margin-left: 10px;
+}

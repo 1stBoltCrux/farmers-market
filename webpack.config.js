@@ -42,6 +42,13 @@ module.exports = {
           }
         },
         {
+        test: /\.css$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" }
+        ]
+      },
+        {
         test: /\.jsx?$/,
         loader: "babel-loader",
         exclude: /node_modules/,
@@ -64,7 +71,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'React Template',
+      title: 'Farmers Market',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
