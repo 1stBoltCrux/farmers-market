@@ -8,7 +8,8 @@ function SeasonCard(props){
       <div className='months'><h3>{props.month}</h3></div>
       <div className="card-content">
         {props.selection.map((veg, index) =>
-          <div className='produce'>{veg}</div>
+          <div className='produce' key={index}>{veg}</div>
+
         )}
       </div>
     </div>

@@ -44,7 +44,7 @@ const marketSchedule = [
 
 function Schedule(){
   return(
-    <div className='scheduleWrapper'>
+    <div className='schedule-wrapper'>
       <Nav/>
       <h2>Schedule</h2>
       {marketSchedule.map((schedule, index) =>
