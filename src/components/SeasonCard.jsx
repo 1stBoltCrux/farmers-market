@@ -5,7 +5,7 @@ import './seasoncard.css';
 function SeasonCard(props){
   return(
     <div className='season-card-wrapper'>
-      <div className='column'><h3>{props.month}</h3></div>
+      <div className='months'><h3>{props.month}</h3></div>
       <div className="card-content">
         {props.selection.map((veg, index) =>
           <div className='produce'>{veg}</div>

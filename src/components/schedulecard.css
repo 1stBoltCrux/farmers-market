@@ -6,6 +6,10 @@
   height: 80px;
 
 }
- .column {
-
- }
+.column {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
